@@ -2,10 +2,6 @@
 
 A module for interfacing with Propeller Health's Asthma Forecasting service.
 
-## Installation
-
-pip install asthma-forecast
-
 ## Examples
 
 ```python
