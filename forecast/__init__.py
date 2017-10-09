@@ -14,7 +14,7 @@ class Client(object):
         :rtype: forecast.Client
         """
 
-        self._api_endpoint = "https://mptyew8uk9.execute-api.us-west-2.amazonaws.com/prod/forecast"
+        self._api_endpoint = "https://open.propellerhealth.com/prod/forecast"
 
     def __httpGet(self,uri):
         url = self._api_endpoint + uri
